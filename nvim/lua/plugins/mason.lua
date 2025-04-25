@@ -1,4 +1,5 @@
 return {
+{
   "williamboman/mason.nvim",
   
   config = function()
@@ -14,4 +15,9 @@ return {
     })
 
   end,
+},
+{
+  "neovim/nvim-lspconfig"
+
+}
 }

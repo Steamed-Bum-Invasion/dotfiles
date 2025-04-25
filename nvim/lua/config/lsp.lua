@@ -4,15 +4,15 @@
 
 
 -- Determine the LSP configuration directory.
-local lsp_path = vim.fn.stdpath("config") .. "/lua/lsp"
-
--- Iterate over each Lua file (except global.lua) in the lsp directory.
-for _, file in ipairs(vim.fn.readdir(lsp_path)) do
-  if file:match("%.lua$") and file ~= "global.lua" then
-    local module_name = "lsp." .. file:gsub("%.lua$", "")
-    require(module_name)
-  end
-end
+-- local lsp_path = vim.fn.stdpath("config") .. "/lua/lsp"
+--
+-- -- Iterate over each Lua file (except global.lua) in the lsp directory.
+-- for _, file in ipairs(vim.fn.readdir(lsp_path)) do
+--   if file:match("%.lua$") and file ~= "global.lua" then
+--     local module_name = "lsp." .. file:gsub("%.lua$", "")
+--     require(module_name)
+--   end
+-- end
 
 -- show diagnostic messages. currently sets virtual lines
 vim.diagnostic.config({ virtual_text = { current_line = true } })
