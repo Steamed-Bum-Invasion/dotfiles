@@ -2,9 +2,11 @@
 
 dotfiles for various configs
 
-# List of configs-
+## List of configs-
 
-- Neovim
-- Tmux
-- Kitty
-- bash
+  - Neovim
+  - Tmux (tba)
+  - Kitty
+  - bash (tba)
+
+
