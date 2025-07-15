@@ -43,6 +43,7 @@ bind 'set completion-ignore-case on'
 
 export EDITOR=nvim
 export VISUAL=nvim
+export SSH_AUTH_SOCK=/home/dhruv/.var/app/com.bitwarden.desktop/data/.bitwarden-ssh-agent.sock
 
 export PATH=/usr/local/cuda-12.6/bin${PATH:+:${PATH}}
 # export LD_LIBRARY_PATH=/usr/local/cuda-12.6/lib64\

@@ -8,7 +8,8 @@ dotfiles for various configs
   - Neovim
   - Tmux (tba)
   - Kitty
-  - bash (tba)
+  - bash 
+  - ssh
 
 ## Install with GNU stow
 
